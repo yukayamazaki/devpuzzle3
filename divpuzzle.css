@@ -9,7 +9,7 @@
   height: 100px;
   background-color: #ff0000;
 }
-.header-wrapper {
+.header-container {
   position: absolute;
   background-color: #ffffff;
   padding: 10px;
@@ -39,7 +39,7 @@
   background-color: #8c2727;
   float: left;
 }
-.wrapper {
+.contents {
   position: absolute;
   top: 40px;
   left: 40px;
