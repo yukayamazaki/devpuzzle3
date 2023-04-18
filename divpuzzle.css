@@ -17,14 +17,15 @@
   left: 220px;
   float: left;
 }
-.header-item1,.header-item2,.header-item3 {
+.header-item {
   width: 40px;
   height: 40px;
   background-color: #a9004b;
   float: left;
-}
-.header-item1,.header-item2 {
   margin-right: 10px;
+}
+.header-item:last-child {
+  margin-right: 0;
 }
 .left-container {
   width: 150px;
@@ -44,7 +45,7 @@
   top: 40px;
   left: 40px;
 }
-.main-item1,.main-item2,.main-item3 {
+.main-item {
   width: 140px;
   height: 40px;
   background-color: #ff863f;
